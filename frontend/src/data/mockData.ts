@@ -7,6 +7,7 @@ import somita from "../assets/somita.jpg" ;
 import hansika from "../assets/hansika.jpg" ;
 import babita from  "../assets/babita.png" ;
 import parveenSir from "../assets/parveenSir.jpg";
+import priyanshu from "../assets/priyanshu.png";
 
 // Mock Users
 export const mockUsers = [
@@ -198,7 +199,7 @@ export const mockTeamMembers = [
     profilePic: parveenSir,
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/parveensingh623/?originalSubdomain=in',
-      instagram: 'https://www.instagram.com/bright_eureka_?igsh=bnZrbzFhNW1nczZ5' 
+      instagram: 'https://www.instagram.com/harvey..specter?igsh=MThxZW9nbnJ0aWJiOQ==' 
     }
   },
   {
@@ -226,8 +227,22 @@ export const mockTeamMembers = [
     }
   }, 
   ,
-  {
+  
+  
+   {
     id: 'team4',
+    name: 'Priyanshu Naik',
+    role: 'Backend Developer',
+    bio: 'Student at IIT Guwahati, passionate about backend, building reliable systems and clean APIs.',
+    profilePic: priyanshu,
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/priyanshu-naik-787bb72a2',
+      github: 'https://github.com/PriyanshuNaik27', //
+      instagram: 'https://www.instagram.com/priyanshu._naik'   //
+    }
+  }, 
+  {
+    id: 'team5',
     name: 'Hansika Jaiswal',
     role: 'UI UX Designer',
     bio: 'UI UX designer',
@@ -237,19 +252,6 @@ export const mockTeamMembers = [
       instagram: 'https://www.instagram.com/hansika_aa7?igsh=ZmhleHAwdTZnMGt2'
     }
   },
-  
-   {
-    id: 'team5',
-    name: 'Priyanshu Naik',
-    role: 'Frontend Developer',
-    bio: 'IIT Guwahati graduate with expertise in React',
-    profilePic: harshita,
-    socialLinks: {
-      linkedin: 'https://www.linkedin.com/in/harshita-sharma-310702346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      github: 'https://github.com/harshitasharma111', //
-      instagram: 'https://www.instagram.com/harshhhitaa_?igsh=MW1ibG4xZHh2Mjc1OA=='   //
-    }
-  }, 
    {
     id: 'team6',
     name: 'Harshita Sharma',
